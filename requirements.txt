@@ -5,4 +5,9 @@ sys
 logging 
 os
 datetime
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+dill
+# -e .
