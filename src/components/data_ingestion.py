@@ -45,8 +45,15 @@ if __name__=="__main__":
     obj=DataIngestion()
     train_data,test_data=obj.initiate_data_ingestion()
     
+    print("Data Reading Done")
     data_transformation=DataTransformation()
     train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
-    
+    print("Data Tranformation Done")
+    print("Splitting Done")
+    print("Let's move on to Model training and selecting best model part")
+    print("It might take time")
     modeltrainer=ModelTrainer()
+    print("Inside Model trainer")
+    print("It's done")
+    print("---------------------------------------")
     print(modeltrainer.initite_model_trainer(train_arr,test_arr))
