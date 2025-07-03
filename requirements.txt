@@ -1,9 +1,7 @@
 pandas
 numpy
 seaborn
-sys
 logging 
-os
 datetime
 matplotlib
 scikit-learn
